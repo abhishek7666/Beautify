@@ -193,7 +193,5 @@
 	width: 560px;
 }
 .item{
-	width:200px;
-	height: 200px;
-	background-color: green;
+	object-fit: cover;
 }
