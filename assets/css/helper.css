@@ -1,0 +1,70 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.primary{
+    background-color: #fb527a;
+}
+.secondary{
+
+}
+.tertiary{
+
+}
+.quatainer{
+
+}
+
+.container{
+	width: 1090px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+.alignCenter{
+	text-align: center;
+}
+.alignLeft{
+	text-align: left;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container-2{
+    width: 1180px;
+    margin: 0 auto;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.row,.row::after,.row::before{
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.col-12,.col-8,.col7,.col-6,.col-4,.col-2,.col-3{
+    float: left;
+    padding: 0 15px;
+}
+.col-12{
+    width: 100%;
+}
+.col-7{
+    width: calc((100% * 7) / 12);
+}
+.col-6{
+    width: 50%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: calc((100% *4)/12);
+}
