@@ -17,3 +17,11 @@ $(document).ready(function(){
         // }
     })
 })
+$(document).ready(function(){
+
+	$('#bar1').barfiller({ barColor: '#fb527a' });
+	$('#bar2').barfiller({ barColor: '#fb527a' });
+	$('#bar3').barfiller({ barColor: '#fb527a' });
+	$('#bar4').barfiller({ barColor: '#fb527a', duration: 3000 });
+	
+});

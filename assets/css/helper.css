@@ -44,6 +44,9 @@ a{
 .mb-30{
     margin-bottom: 30px;
 }
+.mb-53{
+    margin-bottom: 40px;
+}
 .row,.row::after,.row::before{
     display: table;
     width: 100%;
